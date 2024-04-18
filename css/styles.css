@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ddd;
 }
 h1,
 h2,
@@ -11,6 +12,7 @@ h4 {
     color: #d22304;
 }
 h2 {
+    background-color: #1b1c1c;
     font-size: 2rem;
     margin: 0;
 }
@@ -36,12 +38,12 @@ a:hover {
     width: 100%;
     height: 80px;
     background-color: #1b1c1c;
-    border-bottom: 2px solid #ddd;
     display: flex;
     align-items: center;
 }
 
 #navbar-inner {
+    background-color: #1b1c1c;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,10 +53,12 @@ a:hover {
 }
 
 .nav-container {
+    background-color: #1b1c1c;
     display: flex;
     align-items: center;
 }
 .logo-container {
+    background-color: #1b1c1c;
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -67,17 +71,56 @@ a:hover {
     height: 100%;
 }
 #nav-links ul {
+    background-color: #1b1c1c;
     display: flex;
     gap: 1rem;
     align-items: center;
     list-style: none;
-    /* Remove os estilos padrão da lista */
     padding: 0;
-    /* Remove o preenchimento padrão da lista */
 }
 
 #nav-links li {
+    background-color: #1b1c1c;
     font-size: 1.2rem;
     margin-right: 20px;
-    /* Adiciona margem direita entre os itens do menu */
+}
+#nav-links a {
+    background-color: #1b1c1c;
+}
+
+/* Conteúdo principal*/
+.container {
+    display: flex;
+    gap: 3rem;
+    padding: 2rem 2.5rem;
+    width: 1200px;
+    margin: 0 auto;
+}
+#posts-container {
+    flex: 3 1 0;
+}
+.post {
+    margin-bottom: 2.5rem;
+}
+.post img {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.title,
+.description,
+.author {
+    margin-bottom: 1rem;
+}
+.title {
+    font-size: 2rem;
+}
+.title a{
+    color: #d22304;
+}
+.title a:hover {
+    color: #37a1f7;
+}
+.author {
+    color: #333;
+    font-weight: 600;
 }
