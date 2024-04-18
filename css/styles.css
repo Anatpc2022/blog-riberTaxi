@@ -1,3 +1,83 @@
-h1 {
-    color: red;
+/* Geral */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1,
+h2,
+h3,
+h4 {
+    color: #d22304;
+}
+h2 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+p {
+    color: #70747a;
+}
+
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #f72804;
+    transition: .4s;
+}
+a:hover {
+    color: #37a1f7;
+}
+
+/* Navbar */
+#navbar {
+    width: 100%;
+    height: 80px;
+    background-color: #1b1c1c;
+    border-bottom: 2px solid #ddd;
+    display: flex;
+    align-items: center;
+}
+
+#navbar-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+}
+.logo-container {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+#logo {
+    width: 100%;
+    height: 100%;
+}
+#nav-links ul {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    list-style: none;
+    /* Remove os estilos padrão da lista */
+    padding: 0;
+    /* Remove o preenchimento padrão da lista */
+}
+
+#nav-links li {
+    font-size: 1.2rem;
+    margin-right: 20px;
+    /* Adiciona margem direita entre os itens do menu */
 }
