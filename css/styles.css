@@ -123,6 +123,9 @@ a:hover {
 .description {
     margin-bottom: 1rem;
 }
+.description-price {
+    font-size: .8rem;
+}
 
 .title {
     font-size: 2rem;
