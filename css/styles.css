@@ -133,6 +133,9 @@ a:hover {
     line-height: 2rem;
     margin-bottom: 1rem;
 }
+.lis {
+    margin-bottom: 1rem;
+}
 
 .title a {
     color: #d22304;
