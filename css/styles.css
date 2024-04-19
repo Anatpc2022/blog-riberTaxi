@@ -21,6 +21,8 @@ h2 {
 
 p {
     color: #70747a;
+    line-height: 2rem;
+    font-size: 1rem;
 }
 
 ul {
@@ -118,13 +120,17 @@ a:hover {
 }
 
 .title,
-.description,
-.author {
+.description {
     margin-bottom: 1rem;
 }
 
 .title {
     font-size: 2rem;
+}
+.post h4{
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 1rem;
 }
 
 .title a {
@@ -133,11 +139,6 @@ a:hover {
 
 .title a:hover {
     color: #37a1f7;
-}
-
-.author {
-    color: #333;
-    font-weight: 600;
 }
 
 #sidebar {
