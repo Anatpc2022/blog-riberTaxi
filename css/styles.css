@@ -20,7 +20,7 @@ h2 {
 }
 
 p {
-    color: #70747a;
+    color: #555657;
     line-height: 2rem;
     font-size: 1rem;
 }
@@ -129,7 +129,8 @@ a:hover {
 }
 .post h4{
     font-size: 1.1rem;
-    color: #333;
+    color: #444;
+    line-height: 2rem;
     margin-bottom: 1rem;
 }
 
